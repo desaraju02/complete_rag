@@ -166,3 +166,5 @@ local_settings.py
 # If you add a file here intentionally, uncomment and override
 # !.gitignore
 
+*.pkl
+*.faiss
