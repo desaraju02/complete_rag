@@ -1,0 +1,168 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg
+*.whl
+*.tar.gz
+*.zip
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+.env.*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Sensitive files and credentials
+*.key
+*.pem
+*.p12
+*.jks
+*.crt
+*.der
+*.pfx
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets/*.json
+secrets/*.yaml
+secrets/*.yml
+*.secret
+credentials*
+config*.json
+config*.yaml
+config*.yml
+*.ini
+*.cfg
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Python bytecode
+*.py[cod]
+*.pyo
+*.pyd
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.dmypy.json.gz
+
+# C extensions
+*.so
+*.dylib
+*.dll
+
+# dotenv files
+dotenv
+
+# Environment-specific
+*.env
+
+# Chroma/Vector DB artifacts
+chromadb/
+chroma_db/
+**/chroma.sqlite3
+**/chroma.sqlite
+**/chroma.db
+
+# Data exports and generated docs
+*.csv
+*.tsv
+*.jsonl
+*.json
+*.txt
+*.pdf
+*.docx
+*.xlsx
+
+# Temporary directories
+tmp/
+temp/
+
+# Ignore all secrets and credentials by default
+secret*
+password*
+key*
+private*
+
+# Local machine-specific files
+local_settings.py
+manage.py.db
+
+# Ignore any files named with typical sensitive patterns
+*credentials*
+*secret*
+*private*
+*token*
+*api_key*
+*apikey*
+*password*
+
+# Custom local overrides
+local.env
+local_settings.py
+
+# Project specific generated data
+/data/
+*/data/
+
+# If you add a file here intentionally, uncomment and override
+# !.gitignore
+
